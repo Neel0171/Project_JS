@@ -2,8 +2,6 @@
 
 This code sample represents example of authentication server for video sdk.
 
-Before running the app, you need to setup and run the authentication server.
-Use our official _videosdk-rtc-nodejs-sdk-example_ to perform server authentication.
 
 ## Getting started
 
