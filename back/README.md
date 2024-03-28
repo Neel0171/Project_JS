@@ -10,7 +10,7 @@ Use our official _videosdk-rtc-nodejs-sdk-example_ to perform server authenticat
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/videosdk-live/videosdk-rtc-nodejs-sdk-example
+   git clone https://github.com/Neel0171/Project_JS.git
    ```
 
 2. Copy the `.env.example` file to `.env` file.
