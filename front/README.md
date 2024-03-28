@@ -29,33 +29,30 @@ You must have the following installed:
 
 ## Getting started
 
-1. Run the authentication server
 
-   Follow instructions from [videosdk-rtc-nodejs-sdk-example](https://github.com/videosdk-live/videosdk-rtc-nodejs-sdk-example) to run the authentication server.
-
-2. Clone the repo
+1. Clone the repo
 
    ```sh
-   git clone https://github.com/videosdk-live/videosdk-rtc-javascript-sdk-example.git
+   git clone https://github.com/Neel0171/Project_JS.git
 
-   cd videosdk-rtc-javascript-sdk-example
+   cd front
    ```
 
-3. Create a new file config.js and Copy the config.example.js file's data to config.js file
+2. Create a new file config.js and Copy the config.example.js file's data to config.js file
 
-4. Update the TOKEN in `config.js` file.Token would be generated from dashboard `https://app.videosdk.live/dashboard`
+3. Update the TOKEN in `config.js` file.Token would be generated from dashboard `https://app.videosdk.live/dashboard`
 
    ```
    TOKEN="Your Token Here"
    ```
 
-5. If one doesn't want to give their token then they can generate token using AUTH_URL of their own in `config.js` file
+4. If one doesn't want to give their token then they can generate token using AUTH_URL of their own in `config.js` file
 
    ```
    AUTH_URL=one's auth url
    ```
 
-6. Run the app
+5. Run the app
 
    ```sh
    npm install -g live-server
@@ -64,8 +61,4 @@ You must have the following installed:
 
 For more information, visit [official documentation](https://docs.videosdk.live/javascript/guide/video-and-audio-calling-api-sdk/quick-start)
 
-Related
 
-- [Video SDK RTC Prebuillt No Code App](https://github.com/videosdk-live/videosdk-rtc-js-prebuilt-embedded-example)
-- [Video SDK RTC React Native App](https://github.com/videosdk-live/videosdk-rtc-react-native-sdk-example)
-- [Video SDK RTC Node JS API](https://github.com/videosdk-live/videosdk-rtc-nodejs-sdk-example)
